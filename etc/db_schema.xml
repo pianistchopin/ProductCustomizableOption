@@ -1,0 +1,6 @@
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="catalog_product_option" resource="default" engine="innodb" comment="Tier Pricing Table">
+        <column xsi:type="smallint" name="is_frontend_show"  unsigned="true" nullable="false" default="1" />
+    </table>
+</schema>
